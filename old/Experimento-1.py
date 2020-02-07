@@ -1,6 +1,9 @@
 '''
 Esse script é somente um teste de desempenho
 utilzando o caso do TCC de um treliça de 10 barras
+
+Este script demorou 389 segundos para rodar num Dell Precision T3610
+com Windows 7, 16GB RAM e SSD 256GB
 '''
 
 import numpy as np

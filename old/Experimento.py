@@ -5,20 +5,8 @@ DS_Method OOP
 Baseado no exemplo Pg47 do material da Altair
 Practical Aspects of FE Simulation
 
-####### Ideias #######
-- Permitir imputar as barras por ponto inicial e ângulo;
-- Permitir acessar a matriz individual de cada barra;
-- Fazer orientado a objeto;
-- identificar carregamento por nó
-- identificar restrição por nó
-- identificar as areas por barras
-- permitir lsita para momentos de inércia ou valor
-- disponibilizar via pip
-- disponibilizar visualização
-- utilizar bibliotecas em cpp
-- utilizar teste unitário
-- utilizar teste de performance
-- Criar diretório no GitHub
+Esse programa demorou 154 segundos para rodar no Dell Precision T3610
+no Windows 7 e 16GB de RAM, SSD 256GB
 '''
 
 import numpy as np
