@@ -1,0 +1,20 @@
+####### Ideias #######
+@@@@@@@ Fase 1
+- Permitir imputar as barras por ponto inicial e ângulo;
+- Permitir acessar a matriz individual de cada barra;
+- Fazer orientado a objeto;
+- identificar carregamento por nó
+- identificar restrição por nó
+- identificar as areas por barras
+- permitir lsita para momentos de inércia ou valor
+- disponibilizar via pip
+- disponibilizar visualização
+- utilizar bibliotecas em cpp
+- utilizar teste unitário
+- utilizar teste de performance
+- Criar diretório no GitHub - Ok
+- Permitir a montagem de estruturas com elementos mistos
+- Permitir a leitura de arquivos para criação das estruturas
+- Implementar elemento de viga
+- Implementar elemento de grelha
+- Verificar se é possível puxar os dados de um desenho do AutoCAD
