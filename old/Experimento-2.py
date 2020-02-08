@@ -2,8 +2,17 @@
 Esse script é somente um teste de desempenho
 utilzando o caso do TCC de um treliça de 18 barras
 
-Este script demorou 664 segundos para rodar num Dell Precision T3610
-com Windows 7, 16GB RAM e SSD 256GB
+Performance Benchmark:
+
+- Este script demorou 664 segundos para rodar num Dell Precision T3610
+com Windows 7, 16GB RAM e SSD 256GB;
+- Este script demorou 1473.751 segundos para rodar num HP v064br,
+com Ubuntu 18.04LTS, 10GB RAM e SSD 100GB(partição Linux completa).
+Utilizando desempenho em 100%;
+- Este script demorou 691.431 segundos para rodar num Lenovo T460,
+processador i5-6300U vPro,
+com Windows 10 Pro, 8GB RAM, SSD 237GB;
+
 '''
 
 import numpy as np
