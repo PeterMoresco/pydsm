@@ -1,20 +1,29 @@
 ####### Ideias #######
 @@@@@@@ Fase 1
-- Permitir imputar as barras por ponto inicial e ângulo;
-- Permitir acessar a matriz individual de cada barra;
-- Fazer orientado a objeto;
-- identificar carregamento por nó
+- utilizar teste de performance:
+    - reformular teste, retirando os prints e estressar todos os metodos
+    - reduzir o numero de loops e estabelecer a media dos loops
+    - verificar se ha possibilidade de verifixar dados do hardware;
+    - possibilidade de usar a placa grafica;
+    - testar paralelismo;
+- identificar carregamento por nó:
+    - Testar a diferenca de performance utilizando um dicionario;
 - identificar restrição por nó
 - identificar as areas por barras
+- Fazer orientado a objeto:
+    - Verificar a utilizacao da montagem da matriz com mais de um tipo de objeto, pois isso afeta a abordagem de abstracao;
+- Permitir acessar a matriz individual de cada barra: 
+    - Disponibilizar o calculo das matrizes individuais via funcao, diminuindo o MFP;
+    - fazer um estudo avaliando o dito acima, pois caso as matrizes individuais nao fiquem disponiveis, ao alterar uma delas todas deveram ser recalculadas para a montagem da matriz de rigidez global;
 - permitir lsita para momentos de inércia ou valor
 - disponibilizar via pip
 - disponibilizar visualização
 - utilizar bibliotecas em cpp
 - utilizar teste unitário
-- utilizar teste de performance
 - Criar diretório no GitHub - Ok
 - Permitir a montagem de estruturas com elementos mistos
 - Permitir a leitura de arquivos para criação das estruturas
 - Implementar elemento de viga
 - Implementar elemento de grelha
 - Verificar se é possível puxar os dados de um desenho do AutoCAD
+- Permitir imputar as barras por ponto inicial e ângulo;
