@@ -1,3 +1,5 @@
+from datetime import datetime as dt
+import os
 import sys
 import time
 import platform
@@ -21,7 +23,10 @@ def benchmark(func, filePath):
 		func
 		times.append(time.time() - time1)
 	mean10 = np.mean(times)
-	sys.stdout = open(filePath, 'w')
+	if os.path.isfile(filePath):
+		sys.stdout = open(filePath, 'a')
+	else:
+		sys.stdout = open(filePath, 'w')
 	print(80 * '=')
 	####### Computer data
 	print(35 * ' ' + 'Computer data')
@@ -57,6 +62,7 @@ def benchmark(func, filePath):
 	# Percent of memory in usage
 	percMemory = ps.virtual_memory().percent
 	print(35 * ' ' + 'Results')
+	print('Results from {}'.format(dt.now()))
 	print('This routine runned {} times'.format(loop))
 	print('The average time per run is {0:.2f} seg'.format(mean10))
 	print("The total was {0:.2f} seg".format(time.time() - total))
@@ -65,7 +71,7 @@ def benchmark(func, filePath):
 
 def main():
 	benchmark(t10.test(), 'results10bar.bench')
-	benchmark(t18.test(), 'resultado18bar.bench')
+	benchmark(t18.test(), 'results18bar.bench')
 
 if __name__ == '__main__':
 	main()
