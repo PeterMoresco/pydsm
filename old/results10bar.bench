@@ -1,0 +1,16 @@
+================================================================================
+                                   Computer data
+Operational system: Linux
+Release: 5.3.0-28-generic
+Version: #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020
+Processor type: x86_64
+Physical cores: 2
+Logical cores: 4
+Maximun ferquency: 2.7 GHz
+Total RAM memory: 9.7 GB
+================================================================================
+                                   Results
+This routine runned 10000 times
+The average time per run is 0.00 seg
+The total was 0.11 seg
+================================================================================
