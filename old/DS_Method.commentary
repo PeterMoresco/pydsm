@@ -47,6 +47,9 @@ def stiff_matrices(bars, nodes, area, mom_e):
         mat_id = np.zeros((gL, 4))
         mat_id[forca, np.arange(4)] = 1
         prev = np.matmul(mat_id, mrlb)
+        # TODO substituir pela soma por eixos ao final
+        # np.sum(mrl, axis = 2)
+        # testar para validar
         mrg += np.matmul(prev, mat_id.T)
         mrl[:,:,ind] = np.copy(mrlb)
         #multiplica pelo momento de inercia do material
